@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Snacks {
     private static final List<Snack> snacks;
 
-    //Bloque statico inicializador (Sirve para inicializar artibutos estaticos)
+    //Bloque statico inicializador (Sirve para inicializar atributos estaticos)
     static{
         snacks = new ArrayList<>();
         snacks.add(new Snack("Papas", 70));
